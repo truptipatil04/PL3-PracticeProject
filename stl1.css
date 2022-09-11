@@ -1,0 +1,105 @@
+body {
+    background-color: #010;
+  }
+
+.m1{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 190px;
+ }
+ 
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+ .m2{
+    font-family: "Cairo";
+    /* text-align: center; */
+    color: #FFF;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px; */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:2
+  }
+  
+  h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 10px 0;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  #about{
+    background-color: rgb(202, 237, 244);
+    color: #fff;
+  }
+
+  #footer{
+    height: 5px;
+    width: 100%;
+    /* background-color: rgb(202, 237, 244); */
+    padding: 7% 15% 15% 15%;
+    /* margin-bottom: auto; */
+    text-align: center;
+  }
+
+  .social-icon{
+      margin: 20px 10px;
+  }
+
+  @media (max-width: 1028px){
+      #title{
+          text-align: center;
+      }
+
+      .title-image{
+          position: static;
+          transform: rotate(0);
+      }
+  }
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
