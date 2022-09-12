@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic Notes</title>
-    
-    <link rel="stylesheet" href="stl.css">
+    <title>MAGIC NOTES</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="st.css">
 </head>
 
 <body>
@@ -25,7 +24,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index1.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
@@ -33,52 +32,27 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#footer">Contact <span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="notes.html">Notes <span class="sr-only">(current)</span></a>
+                </li>
             </ul>
-
-            <form class="form-inline my-2 my-lg-0">
-                <input id="searchTxt" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
         </div>
     </nav>
-
-    <div class="container my-3">
-        <div class="m1"> <h1>Welcome to Magic Notes</h1></div>
-        <div class="card">
-            <!-- <img src="..." class="card-img-top" alt="..."> -->
-            <div class="card-body">
-                <div class="form-group">
-                    <h5 class="card-title">Add title</h5>
-                    <input type="text" class="form-control" id="addTitle" placeholder="Enter title">
-                </div>
-                <h5 class="card-title">Add a Note</h5>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1"></label>
-                    <textarea class="form-control" id="addTxt" rows="3"></textarea>
-                </div>
-                <a class="btn btn-primary" id="addBtn">Add Note</a>
-            </div>
-        </div>
-        <hr>
-        <div class="m2"><h1>Your Notes</h1></div>
-        <hr>
-        <div id="notes" class="row container-fluid">
-            <!-- <div class="noteCards mx-2 my-2 card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Note</h5>
-                    <p class="card-text"></p>
-                    <a href="#" class="btn btn-primary">Delete Note</a>
-                </div>
-            </div> -->
-        </div>
+    <div style="background-image: url('https://html.sammy-codes.com/images/background.jpg');
+background-size: cover; height:480px; padding-top: 80px; text-align: center;">
+        <img src="https://html.sammy-codes.com/images/small-profile.jpeg"
+            style="height:150px; border-radius: 50%; border: 10px solid #FEDE00;">
+        <h6 style="font-size:40px; color:black; margin:10px;">MAGIC NOTES</h6>
+        <p style="font-size:30px; color: white;"><em>Magic Notes website helps us to easily make and store notes <br>in an
+                effective way.<br> Its created as a part of our PL Project.</em></p>
+        
     </div>
-
     <section id="about">
         <div id="carouselExampleControls" class="carousel slide" data-ride="false">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <h2 class="testimonial-text">Note it down with Magic Notes1</h2>
-                <img src="n1.png" class="testimonial-image" alt="...">
+                <!-- <h2 class="testimonial-text">Note it down with Magic Notes1</h2> -->
+                <img src="n1.jpg" class="testimonial-image" alt="...">
               </div>
               <div class="carousel-item">
                 <h2 class="testimonial-text">Note it down with Magic Notes2</h2>
@@ -119,18 +93,6 @@
             <p>© Copyright MagicNotes</p>
         </footer>
     </section>
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="app.js"></script>
 </body>
 
 </html>
